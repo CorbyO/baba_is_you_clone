@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packed Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Packed Assets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: feb58ba6ec890df449dccd6204d55b18
+  m_SerializeEntries:
+  - m_GUID: dff33790df0e0ca45b8d3b086865ac10
+    m_Address: Blocks/PPush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5fa90a1593c073848bd2f6fcb283fcd1
+    m_Address: Blocks/Wall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e048539dfcffd84cb0e419921cd9054
+    m_Address: Blocks/Is
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ac21874aef901a45b185a6262f00ecc
+    m_Address: Blocks/SFlag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a0a51efc4c5ca041ab44a2752153611
+    m_Address: Blocks/Flag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1af4af37b61832442b916eb9121e17de
+    m_Address: Blocks/SRock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79f469ba58af46b4d9d661a8b9b02189
+    m_Address: Blocks/PWin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c72c518720efa1a4f9648a782f113816
+    m_Address: Blocks/SWall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17f63496b0cc9f44c909b140af39289f
+    m_Address: Blocks/Rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15a097f10c9b2464da760657bc95fe5e
+    m_Address: Blocks/PStop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1158f4c09c733240837578fa742f1b3
+    m_Address: Blocks/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: eeb781efdd2b61d408237dcf962fb844, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a4f88ab8d07773e429588943db11c4ee, type: 2}
+    - {fileID: 11400000, guid: 29f17414a4d91d5439186714246e2663, type: 2}
