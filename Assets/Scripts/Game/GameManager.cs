@@ -31,14 +31,18 @@ namespace Puzzle.Game
         private void Initialize()
         {
             var mapRaw = new StringBuilder();
-            mapRaw.AppendLine("303,100,200,  0,  0,  0,  0,  0,  0,  2")
-                  .AppendLine("302,100,202,  0,  0,  0,  0,  0,  0,  0")
-                  .AppendLine("  0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
-                  .AppendLine("  0,  0,  0,  0,  0,  2,  2,  2,  2,  0")
-                  .AppendLine("  0,  0,  0,  1,  0,  4,  0,  0,  2,  0")
-                  .AppendLine("  0,  0,  0,  0,  0,  2,  0,  3,  2,  0")
-                  .AppendLine("  0,  0,  0,  0,  0,  2,  2,  2,  2,  0")
-                      .Append("304,100,201,  0,  0,  0  ,0  ,0  ,0  ,2");
+            mapRaw.AppendLine("302,100,202,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  2")
+                  .AppendLine("303,100,200,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("301,100,203,  0,  0,  2,  2,  2,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("304,100,201,  1,  0,  4,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  2,  2,  3,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  2,  2,  2,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  0  ,0  ,0  ,0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  0  ,0  ,0  ,0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  0  ,0  ,0  ,0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                  .AppendLine("  0,  0,  0,  0,  0,  0  ,0  ,0  ,0,  0,  0,  0,  0,  0,  0,  0,  0,  0")
+                      .Append("  0,  0,  0,  0,  0,  0  ,0  ,0  ,0,  0,  0,  0,  0,  0,  0,  0,  0,  2");
 
             Input = FindObjectOfType<InputController>();
             CameraController = FindObjectOfType<CameraController>();

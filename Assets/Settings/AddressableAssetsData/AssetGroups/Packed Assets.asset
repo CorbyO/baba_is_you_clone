@@ -42,7 +42,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 79f469ba58af46b4d9d661a8b9b02189
-    m_Address: Blocks/PWin
+    m_Address: Blocks/PYou
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: c72c518720efa1a4f9648a782f113816
@@ -59,6 +59,14 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: a1158f4c09c733240837578fa742f1b3
     m_Address: Blocks/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19bc1079e42e0e641bf4cdf75ee5d41c
+    m_Address: Blocks/PWin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3777484635d4c36479afd48d725a817c
+    m_Address: Blocks/SPlayer
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

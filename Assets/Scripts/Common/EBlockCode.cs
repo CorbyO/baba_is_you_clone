@@ -17,6 +17,7 @@ namespace Puzzle.Common
         PWin = 200,
         PPush,
         PStop,
+        PYou,
         
         SEmpty = 300,
         SPlayer,

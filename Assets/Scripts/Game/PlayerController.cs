@@ -25,10 +25,10 @@ namespace Puzzle.Game
             var map = GameManager.Instance.MapContainer;
             var mapReader = GameManager.Instance.MapReader;
             var force = direction.ToVector2Int();
-
+            
             foreach (var block in map.Instances)
             {
-                if (block.Code != EBlockCode.Player)
+                if (!mapReader.HasTag(block.Code, EBlockCode.PYou))
                 {
                     continue;
                 }

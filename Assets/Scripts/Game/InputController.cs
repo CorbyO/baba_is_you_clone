@@ -22,9 +22,7 @@ namespace Puzzle.Game
             var prev = _prevMoveInput;
 
             _prevMoveInput = current;
-
-            // Debug.Log($"{prev}->{current}");
-
+            
             if (!Mathf.Approximately(current.x, prev.x))
             {
                 switch (current.x)
